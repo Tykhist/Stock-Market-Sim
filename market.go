@@ -15,7 +15,7 @@ type Stock struct {
 }
 
 func (stk *Stock) updateStock() {
-  change := randomNumberGen(-10000, 10000)
+  change := randomNumberGen(-1000, 4000)
   stk.price += change
 }
 
